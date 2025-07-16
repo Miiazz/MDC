@@ -21,3 +21,5 @@ A lightweight Raspberry Pi based (RPI Zero 2W) Media Display Controller made to 
   <br/>
   <img src="MDC-Assy..png" width="500" alt="Open Case"/>
 </p>
+
+Onshape: https://cad.onshape.com/documents/b498f7b0428b1469fbb3d5d3/w/35c5318d5d70c1912058a1ed/e/d3772819c88d160de8fc96f1
