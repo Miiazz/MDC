@@ -1,4 +1,4 @@
-# Media Display Controller
+# Media Display Controller - Initial Release / Commit
 A lightweight Raspberry Pi based (RPI Zero 2W) Media Display Controller made to download promotional materials from Youtube and automatically loop them 
 
 ## Included Scripts
