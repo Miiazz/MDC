@@ -1,11 +1,1 @@
-https://www.youtube.com/watch?v=mHllrgYNan8&list=PL1XYgqozK3pBmtqqe5F_pHlEU25-7Dozo
-https://www.youtube.com/watch?v=6z1ziCLmyl0&list=PL1XYgqozK3pBmtqqe5F_pHlEU25-7Dozo&index=2
-https://www.youtube.com/watch?v=sT8owwl0JYI&list=PL1XYgqozK3pBmtqqe5F_pHlEU25-7Dozo&index=3
-https://www.youtube.com/watch?v=OHUxTn0THxE&list=PL1XYgqozK3pBmtqqe5F_pHlEU25-7Dozo&index=4
-https://www.youtube.com/watch?v=TlPiDD_B6Hg&list=PL1XYgqozK3pBmtqqe5F_pHlEU25-7Dozo&index=5
-https://www.youtube.com/watch?v=JMSLScFgRfo&list=PL1XYgqozK3pBmtqqe5F_pHlEU25-7Dozo&index=6
-https://www.youtube.com/watch?v=nrZ1lV4L718&list=PL1XYgqozK3pBmtqqe5F_pHlEU25-7Dozo&index=7
-https://www.youtube.com/watch?v=ds7p03Pmrj0&list=PL1XYgqozK3pBmtqqe5F_pHlEU25-7Dozo&index=8
-https://www.youtube.com/watch?v=gmSxhm-BNis&list=PL1XYgqozK3pBmtqqe5F_pHlEU25-7Dozo&index=9
-https://www.youtube.com/watch?v=AkvH3Laj31o&list=PL1XYgqozK3pBmtqqe5F_pHlEU25-7Dozo&index=10
-https://www.youtube.com/watch?v=jxxQZuZIymg&list=PL1XYgqozK3pBmtqqe5F_pHlEU25-7Dozo&index=11
+<Enter YouTube URLs for yt-dlp to download here - one URL per line>
