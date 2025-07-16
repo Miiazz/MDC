@@ -14,3 +14,10 @@ A lightweight Raspberry Pi based (RPI Zero 2W) Media Display Controller made to 
 1. Add your YouTube links to `yt_urls.txt`
 2. Run `bash update_videos.sh` manually or plug in a USB with the file to trigger `usb_update.sh` (If auto detection is still flaky run `usb_update.sh` 
 3. System autoplays updated videos on boot
+
+## Example Housing: 
+<p align="center">
+  <img src="MDC-Exp..png" width="500" alt="Closed Case"/>
+  <br/>
+  <img src="MDC-Assy..png" width="500" alt="Open Case"/>
+</p>
