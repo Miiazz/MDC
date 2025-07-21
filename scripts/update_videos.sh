@@ -21,6 +21,11 @@ if [ ! -f "$URL_FILE" ]; then
 fi
 
 touch "$LOCK_FILE"
+# Ensure lock file is removed on exit or error
+cleanup() {
+  rm -f "$LOCK_FILE"
+}
+trap cleanup EXIT
 cd "$VIDEO_DIR"
 echo "Clearing old videos..."
 rm -f *.mp4
@@ -38,5 +43,5 @@ chmod 644 "$VIDEO_DIR"/*.mp4
 pkill mpv
 
 echo "Done!"
-rm -f "$LOCK_FILE"
+
 
