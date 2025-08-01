@@ -1,0 +1,13 @@
+[Unit]
+Description=MPV video loop player
+After=network.target
+
+[Service]
+ExecStart=/bin/bash -c '/home/mdcontroller/scripts/build_playlist.sh && /usr/bin/mpv --fs --loop-playlist=inf --vo=gpu --gpu-context=drm --hwdec=rpi --framedrop=vo --no-sub --playlist=/home/mdcontroller/videos/playlist.m3u'
+Restart=always
+RestartSec=3
+StandardOutput=journal
+StandardError=journal
+
+[Install]
+WantedBy=default.target
