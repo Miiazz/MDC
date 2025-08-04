@@ -6,7 +6,7 @@ A lightweight Raspberry Pi based (RPI Zero 2W) Media Display Controller made to 
 - `scripts/update_videos.sh`: Updates video playlist from `yt_urls.txt` located on device.
 - `scripts/usb_update.sh`: Updates video playlist from `yt_urls.txt` found on a USB drive.
 
-##Updated Scripts & Functionality (For 
+## Updated Scripts & Functionality (For new `main-systemd`)
 - On boot, the system checks for `yt_urls.txt` via USB or local.
 - If found, videos are downloaded using `yt-dlp` (720p max, subtitles embedded).
 - `mpv` begins looping videos in fullscreen.
