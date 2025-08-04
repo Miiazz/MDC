@@ -1,19 +1,27 @@
 # Media Display Controller - Initial Release / Commit
 A lightweight Raspberry Pi based (RPI Zero 2W) Media Display Controller made to download promotional materials from Youtube and automatically loop them 
 
-## Included Scripts
+## Included Scripts - Outdated Pivoted to System Service (Below for `main`)
 - `.bash_profile`: Launches `mpv` in fullscreen loop mode on physical terminal (TTY1).
 - `scripts/update_videos.sh`: Updates video playlist from `yt_urls.txt` located on device.
 - `scripts/usb_update.sh`: Updates video playlist from `yt_urls.txt` found on a USB drive.
+
+##Updated Scripts & Functionality (For 
+- On boot, the system checks for `yt_urls.txt` via USB or local.
+- If found, videos are downloaded using `yt-dlp` (720p max, subtitles embedded).
+- `mpv` begins looping videos in fullscreen.
+- Updates run periodically via a systemd timer, with logs recorded in update.log.
+
 
 ## Requirements
 - `yt-dlp`
 - `mpv`
 
-## Usage
+## Usage 
 1. Add your YouTube links to `yt_urls.txt`
 2. Run `bash update_videos.sh` manually or plug in a USB with the file to trigger `usb_update.sh` (If auto detection is still flaky run `usb_update.sh` 
 3. System autoplays updated videos on boot
+
 
 ## Example Housing: 
 <p align="center">
